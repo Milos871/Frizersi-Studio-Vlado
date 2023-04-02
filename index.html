@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Frizerski studio Vlado</title>
+    <meta name="title" content="Barber - Barbers & Hair Cutting" />
+    <meta
+      name="description"
+      content="This is a barber html template made by codewithsadee"
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@300,400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - flaticon
+  -->
+    <link rel="stylesheet" href="assets/css/flaticon.min.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.jpg" />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header">
+      <div class="header-top">
+        <div class="container">
+          <ul class="header-top-list">
+            <li class="header-top-item">
+              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+              <p class="item-title">Pozovite nas:</p>
+
+              <a href="tel:01234567895" class="item-link">065-455-500</a>
+            </li>
+
+            <li class="header-top-item">
+              <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+              <p class="item-title">Radno vrijeme:</p>
+
+              <p class="item-text">Ponedeljak-Petak: 08:00 - 20:00</p>
+            </li>
+
+            <li>
+              <ul class="social-list">
+                <li>
+                  <a
+                    href="https://www.facebook.com/people/Frizerski-studio-Vlado/100058718384848/?paipv=0&eav=Afak8E-60E_Yot6mTsu08Mcd3tE5A9I2TjyssjM6jukoyPU5puQDN-8F0S7-jwZhAJM&_rdr"
+                    class="social-link"
+                    target="_blank"
+                  >
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://www.instagram.com/frizerski_studio_vlado/"
+                    class="social-link"
+                    target="_blank"
+                  >
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="mailto:bruks1603@hotmail.com" class="social-link">
+                    <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header-bottom" data-header>
+        <div class="container">
+          <a href="#" class="logo">
+            Vlado
+            <span class="span">Frizerski studio</span>
+          </a>
+
+          <nav class="navbar container" data-navbar>
+            <ul class="navbar-list">
+              <li class="navbar-item">
+                <a href="#home" class="navbar-link" data-nav-link>Home</a>
+              </li>
+
+              <li class="navbar-item">
+                <a href="#services" class="navbar-link" data-nav-link>Usluge</a>
+              </li>
+
+              <li class="navbar-item">
+                <a href="#pricing" class="navbar-link" data-nav-link
+                  >Lista usluga</a
+                >
+              </li>
+
+              <li class="navbar-item">
+                <a href="#gallery" class="navbar-link" data-nav-link>Galerja</a>
+              </li>
+
+              <li class="navbar-item">
+                <a href="#appointment" class="navbar-link" data-nav-link
+                  >Kontakt</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <button
+            class="nav-toggle-btn"
+            aria-label="toggle menu"
+            data-nav-toggler
+          >
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a
+            href="https://www.instagram.com/frizerski_studio_vlado/"
+            class="btn has-before"
+            target="_blank"
+          >
+            <span class="span">Zakažite</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section
+          class="section hero has-before has-bg-image"
+          id="home"
+          aria-label="home"
+          style="background-image: url('./assets/images/hero-banner.jpg')"
+        >
+          <div class="container">
+            <h1 class="h1 hero-title">Brinemo o Vama</h1>
+
+            <p class="hero-text">
+              Uspjeh je poput savršene frizure - zahtijeva pažnju prema
+              detaljima, stručnost i kreativnost.
+            </p>
+
+            <a href="#services" class="btn has-before">
+              <span class="span">Istražite naže usluge</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section class="section service" id="services" aria-label="services">
+          <div class="container">
+            <h2 class="h2 section-title text-center">Usluge koje nudimo</h2>
+
+            <p class="section-text text-center">
+              Ponuda koju imamo je raznovrsna, a vi odaberite vama
+              najpotrebniju.
+            </p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <i class="flaticon-salon"></i>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title"
+                      >Šišanje i stilizovanje kose</a
+                    >
+                  </h3>
+
+                  <p class="card-text">
+                    Osvježite svoj izgled i istaknite svoj stil uz naše
+                    profesionalno stilizovanje i šišanje kose.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <i class="flaticon-shampoo"></i>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Pranje kose</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Otkrijte osjećaj čistoće i svježine uz naše relaksirajuće
+                    pranje kose u našem salonu.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <i class="flaticon-hot-stone"></i>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Body tretmani</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Umirite svoje tijelo i um uz naše luksuzne body tretmane i
+                    osjetite potpunu relaksaciju.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <i class="flaticon-treatment"></i>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Šminkanje</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Istaknite svoju prirodnu ljepotu ili osvježite svoj izgled
+                    uz naše profesionalno šminkanje za svaku priliku.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <i class="flaticon-shaving-razor"></i>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Uređivanje brade</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Iskušajte vrhunsku mušku transformaciju uz našu uslugu
+                    uređivanja brade koja će vaš izgled podići na novu razinu
+                    elegancije.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <i class="flaticon-hair-dye"></i>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Farbanje kose</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Želite osvježiti svoj izgled ili dodati malo boje u život?
+                    Naša usluga farbanja kose će vas transformisati u potpuno
+                    novu osobu!
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #PRICING
+      -->
+
+        <section
+          class="section pricing has-bg-image has-before"
+          id="pricing"
+          aria-label="pricing"
+          style="background-image: url('./assets/images/pricing-bg.jpg')"
+        >
+          <div class="container">
+            <h2 class="h2 section-title text-center">Lista usluga</h2>
+
+            <p class="section-text text-center">
+              Ovdje možete provjeriti cijene naših usluga.
+            </p>
+
+            <div class="pricing-tab-container">
+              <ul class="tab-filter">
+                <li>
+                  <button class="filter-btn active" data-filter-btn="all">
+                    <div class="btn-icon">
+                      <i class="flaticon-beauty-salon" aria-hidden="true"></i>
+                    </div>
+
+                    <p class="btn-text">Sve usluge</p>
+                  </button>
+                </li>
+              </ul>
+
+              <ul class="grid-list">
+                <li data-filter="shaving">
+                  <div class="pricing-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 90; --height: 90"
+                    >
+                      <img
+                        src="./assets/images/pricing-1.jpg"
+                        width="90"
+                        height="90"
+                        alt="Hair Cutting & Fitting"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <div class="wrapper">
+                      <h3 class="h3 card-title">Šišanje</h3>
+                    </div>
+
+                    <data class="card-price" value="89"></data>
+                  </div>
+                </li>
+                <li data-filter="shaving">
+                  <div class="pricing-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 90; --height: 90"
+                    >
+                      <img
+                        src="./assets/images/pricing-1.jpg"
+                        width="90"
+                        height="90"
+                        alt="Hair Cutting & Fitting"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <div class="wrapper">
+                      <h3 class="h3 card-title">Šišanje sa fejdom</h3>
+                    </div>
+
+                    <data class="card-price" value="89"></data>
+                  </div>
+                </li>
+                <li data-filter="shaving">
+                  <div class="pricing-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 90; --height: 90"
+                    >
+                      <img
+                        src="./assets/images/pricing-2.jpg"
+                        width="90"
+                        height="90"
+                        alt="Shaving & Facial"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <div class="wrapper">
+                      <h3 class="h3 card-title">Brijanje brade</h3>
+                    </div>
+
+                    <data class="card-price" value="45"></data>
+                  </div>
+                </li>
+
+                <li data-filter="face-washing">
+                  <div class="pricing-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 90; --height: 90"
+                    >
+                      <img
+                        src="./assets/images/pricing-3.jpg"
+                        width="90"
+                        height="90"
+                        alt="Hair Color & Wash"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <div class="wrapper">
+                      <h3 class="h3 card-title">Farbanje kose</h3>
+                    </div>
+
+                    <data class="card-price" value="35"></data>
+                  </div>
+                </li>
+
+                <li data-filter="body-treatments">
+                  <div class="pricing-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 90; --height: 90"
+                    >
+                      <img
+                        src="./assets/images/pricing-6.jpg"
+                        width="90ox"
+                        height="90px"
+                        alt="Body Massage"
+                        class="img-cover"
+                      />
+                    </figure>
+                    <div class="wrapper">
+                      <h3 class="h3 card-title">Pranje kose</h3>
+                    </div>
+
+                    <data class="card-price" value="35"></data>
+                  </div>
+                </li>
+
+                <li data-filter="body-treatments">
+                  <div class="pricing-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 90; --height: 90"
+                    >
+                      <img
+                        src="./assets/images/pricing-8.jpg"
+                        width="90ox"
+                        height="90px"
+                        alt="Body Massage"
+                        class="img-cover"
+                      />
+                    </figure>
+                    <div class="wrapper">
+                      <h3 class="h3 card-title">Izvlačenje pramenova</h3>
+                    </div>
+
+                    <data class="card-price" value="35"></data>
+                  </div>
+                </li>
+
+                <li data-filter="body-treatments">
+                  <div class="pricing-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 90; --height: 90"
+                    >
+                      <img
+                        src="./assets/images/pricing-4.jpg"
+                        width="90ox"
+                        height="90px"
+                        alt="Body Massage"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <div class="wrapper">
+                      <h3 class="h3 card-title">Šišanje duge kose</h3>
+                    </div>
+
+                    <data class="card-price" value="63"></data>
+                  </div>
+                </li>
+
+                <li data-filter="body-treatments">
+                  <div class="pricing-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 90; --height: 90"
+                    >
+                      <img
+                        src="./assets/images/pricing-7.jpg"
+                        width="90"
+                        height="90"
+                        alt="Backbone Massage"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <div class="wrapper">
+                      <h3 class="h3 card-title">Šišanje kratke kose</h3>
+                    </div>
+
+                    <data class="card-price" value="43"></data>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <!--Employees-->
+
+        <section>
+          <div class="containeer">
+            <div class="headeer">
+              <h1>Naš tim</h1>
+              <h4>Naš tim stručnjaka pobrinuće se za vašu urednost i sjaj.</h4>
+            </div>
+            <div class="sub-containeer">
+              <div class="team">
+                <img
+                  src="assets/images/Vlado.jpg"
+                  width="400px"
+                  height="400px"
+                  alt=""
+                />
+                <div class="name">Vlado</div>
+                <div class="desig">Master Barber</div>
+              </div>
+              <div class="team">
+                <img
+                  src="assets/images/Srđan.jpg"
+                  width="400"
+                  height="400"
+                  alt=""
+                />
+                <div class="name">Srđan</div>
+                <div class="desig">Master Barber</div>
+                <a href="#" class="social-link"> </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 
+        - #GALLERY
+      -->
+
+        <section
+          class="section gallery"
+          id="gallery"
+          aria-label="photo gallery"
+        >
+          <div class="container">
+            <div class="title-wrapper">
+              <div>
+                <h2 class="h2 section-title">Galerija naših mušterija</h2>
+
+                <p class="section-text">
+                  Pogledajte neke od naših master radova, a da se uvjerite u
+                  kvaitet zakažite termin sada.
+                </p>
+              </div>
+
+              <a
+                href="https://www.instagram.com/frizerski_studio_vlado/"
+                target="_blank"
+                class="btn has-before"
+              >
+                <span class="span">Pogledajte još slika</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+
+            <ul class="grid-list">
+              <li>
+                <div class="gallery-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 422; --height: 550"
+                  >
+                    <img
+                      src="./assets/images/gallery-1.jpg"
+                      width="422"
+                      height="550"
+                      loading="lazy"
+                      alt="Hair Cutting"
+                      class="img-cover"
+                    />
+                  </figure>
+                </div>
+              </li>
+
+              <li>
+                <div class="gallery-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 422; --height: 550"
+                  >
+                    <img
+                      src="./assets/images/gallery-2.jpg"
+                      width="422"
+                      height="550"
+                      loading="lazy"
+                      alt="Hair Cutting"
+                      class="img-cover"
+                    />
+                  </figure>
+                </div>
+              </li>
+
+              <li>
+                <div class="gallery-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 422; --height: 550"
+                  >
+                    <img
+                      src="./assets/images/gallery-3.jpg"
+                      width="422"
+                      height="550"
+                      loading="lazy"
+                      alt="Hair Cutting"
+                      class="img-cover"
+                    />
+                  </figure>
+                </div>
+              </li>
+
+              <li>
+                <div class="gallery-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 422; --height: 550"
+                  >
+                    <img
+                      src="./assets/images/gallery-4.jpg"
+                      width="422"
+                      height="550"
+                      loading="lazy"
+                      alt="Hair Cutting"
+                      class="img-cover"
+                    />
+                  </figure>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #APPOINTMENT
+      -->
+
+        <section
+          class="section appoin"
+          id="appointment"
+          aria-label="appointment"
+        >
+          <div class="container">
+            <div class="appoin-card">
+              <figure
+                class="card-banner img-holder"
+                style="--width: 250; --height: 774"
+              >
+                <img
+                  src="./assets/images/appoin-banner-1.jpg"
+                  width="250"
+                  height="774"
+                  loading="lazy"
+                  alt=""
+                  class="img-cover"
+                />
+              </figure>
+
+              <div class="card-content">
+                <h2 class="h2 section-title">Zakažite svoj termin</h2>
+
+                <p class="section-text">
+                  Zakažite svoj termin i dobite potvrdu putem meja da li je
+                  termin slobodan
+                </p>
+
+                <form action="" class="appoin-form">
+                  <div class="input-wrapper">
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Puno ime"
+                      required
+                      class="input-field"
+                    />
+
+                    <input
+                      type="email"
+                      name="email_address"
+                      placeholder="Email Addresa"
+                      required
+                      class="input-field"
+                    />
+                  </div>
+
+                  <div class="input-wrapper">
+                    <input
+                      type="text"
+                      name="phone"
+                      placeholder="Broj telefona"
+                      required
+                      class="input-field"
+                    />
+
+                    <select name="category" class="input-field">
+                      <option value="Select category">
+                        Izaberite kategoriju
+                      </option>
+                      <option value="Beauty & spa">Beauty & spa</option>
+                      <option value="Body massage">Šišanje</option>
+                      <option value="Shaving & Facial">Uređivanje brade</option>
+                      <option value="Hair Color">Farbanje</option>
+                    </select>
+                  </div>
+
+                  <input
+                    type="date"
+                    name="date"
+                    required
+                    class="input-field date"
+                  />
+
+                  <textarea
+                    name="message"
+                    placeholder="Napišite šta želite"
+                    required
+                    class="input-field"
+                  ></textarea>
+
+                  <button type="submit" class="form-btn">
+                    <span class="span">Zakažite</span>
+
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </button>
+                </form>
+              </div>
+
+              <figure
+                class="card-banner img-holder"
+                style="--width: 250; --height: 774"
+              >
+                <img
+                  src="./assets/images/appoin-banner-2.jpg"
+                  width="250"
+                  height="774"
+                  loading="lazy"
+                  alt=""
+                  class="img-cover"
+                />
+              </figure>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer
+      class="footer has-bg-image"
+      style="background-image: url('./assets/images/footer-bg.png')"
+    >
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              Vlado
+              <span class="span">Frizerski studio</span>
+            </a>
+
+            <form action="" class="input-wrapper">
+              <input
+                type="email"
+                name="email_address"
+                placeholder="Unesite Email"
+                required
+                class="email-field"
+              />
+
+              <button type="submit" class="btn has-before">
+                <span class="span">Pretplatite se</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </button>
+            </form>
+          </div>
+
+          <div class="footer-link-box">
+            <ul class="footer-list">
+              <li>
+                <p class="footer-list-title">Brzi linkovi</p>
+              </li>
+
+              <li>
+                <a
+                  id="#services"
+                  href="#services"
+                  class="footer-link has-before"
+                  >Naše usluge</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="https://www.instagram.com/frizerski_studio_vlado/"
+                  class="footer-link has-before"
+                  target="_blank"
+                  >Upoznajte tim</a
+                >
+              </li>
+            </ul>
+
+            <ul class="footer-list">
+              <li>
+                <p class="footer-list-title" id="services">Usluge</p>
+              </li>
+
+              <li>
+                <p href="#" class="footer-link has-before" id="services">
+                  Šišanje
+                </p>
+              </li>
+
+              <li>
+                <p class="footer-link has-before" id="services">Brijanje</p>
+              </li>
+
+              <li>
+                <p href="#" class="footer-link has-before" id="services">
+                  Farbanje
+                </p>
+              </li>
+
+              <li>
+                <p href="#" class="footer-link has-before" id="services">
+                  Beauty & Spa
+                </p>
+              </li>
+
+              <li>
+                <p href="#" class="footer-link has-before" id="services">
+                  Masaže
+                </p>
+              </li>
+            </ul>
+
+            <ul class="footer-list">
+              <li>
+                <p class="footer-list-title" id="services">Kontaktirajte nas</p>
+              </li>
+
+              <li class="footer-list-item">
+                <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+                <a
+                  href="https://www.google.com/maps/place/Frizerski+studio+%22Vlado%22/@44.7611126,19.224581,20.25z/data=!4m15!1m8!3m7!1s0x475be91cb02d7249:0xde5f5ab6329ada88!2z0JHQuNGY0LXRmdC40L3QsA!3b1!8m2!3d44.7569511!4d19.2150224!16zL20vMDJwN252!3m5!1s0x475be91cc89ca9b3:0xd84f0a338d01049e!8m2!3d44.7611616!4d19.2247034!16s%2Fg%2F11c6v8p1g7"
+                  class="contact-link"
+                  target="_blank"
+                >
+                  Srpske dobrovoljačke garde 19, Bijeljina 76300
+                </a>
+              </li>
+
+              <li class="footer-list-item">
+                <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+                <a href="tel:065455500" class="contact-link">065-455-500</a>
+              </li>
+
+              <li class="footer-list-item">
+                <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                <span class="contact-link">Ponedeljak-Petak: 08:00-20:00</span>
+              </li>
+
+              <li class="footer-list-item">
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                <a href="mailto:bruks1603@hotmail.com" class="contact-link"
+                  >bruks1603@hotmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy; 2022 Made by
+            <a
+              href="https://milos871.github.io/Tribus/"
+              class="copyright-link"
+              target="_blank"
+              >TribusMA</a
+            >. <br />
+            Za potrebe "Frizersi salon Vlado" All rights reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
